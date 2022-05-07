@@ -1,10 +1,14 @@
 import logo from '../../src/logo.svg';
 import '../../src/App.css';
+import Banner from './Banner';
 
 function App() {
-  return (
+  return  (
+    
     <div className="App">
+      <div className='App-banner'><Banner /></div>
       <header className="App-header">
+      <Banner />
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Bonjour Sergio Comment çà va ? 👍</h1>
         <a
