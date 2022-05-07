@@ -1,5 +1,5 @@
-import logo from '../../src/logo.svg';
-import '../../src/App.css';
+// import logo from '../../src/logo.svg';
+import '../../src/styles/App.css';
 import Banner from './Banner';
 
 function App() {
@@ -7,9 +7,8 @@ function App() {
     
     <div className="App">
       <div className='App-banner'><Banner /></div>
-      <header className="App-header">
-      <Banner />
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="App-header">
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <h1>Bonjour Sergio Comment çà va ? 👍</h1>
         <a
           className="App-link"
@@ -18,8 +17,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-      </header>
+        </a> */}
+      </div>
     </div>
   );
 }
