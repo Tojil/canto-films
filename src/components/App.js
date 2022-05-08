@@ -2,6 +2,7 @@
 import '../../src/styles/App.css';
 import Banner from './Banner';
 import FilmsList from './FilmsList';
+import Slide from './Slide';
 
 function App() {
   return  (
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <div className='App-banner'><Banner /></div>
       <div className="App-header">
-        <FilmsList />
+      <Slide />
+        
         {/* <img src={logo} className="App-logo" alt="logo" />
         <h1>Bonjour Sergio Comment çà va ? 👍</h1>
         <a
