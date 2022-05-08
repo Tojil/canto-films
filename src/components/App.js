@@ -1,6 +1,7 @@
 // import logo from '../../src/logo.svg';
 import '../../src/styles/App.css';
 import Banner from './Banner';
+import FilmsList from './FilmsList';
 
 function App() {
   return  (
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <div className='App-banner'><Banner /></div>
       <div className="App-header">
+        <FilmsList />
         {/* <img src={logo} className="App-logo" alt="logo" />
         <h1>Bonjour Sergio Comment çà va ? 👍</h1>
         <a
